@@ -24,3 +24,6 @@ No cambia: sigue escribiendo en la misma hoja y las mismas pestañas.
 
 ## Límite
 La URL /.netlify/functions/datos sigue siendo pública: oculta la hoja y el código, no el acceso. Para restringirlo: contraseña de sitio de Netlify (plan Pro) o Netlify Identity.
+
+## 5. Verificación en el Padrón REPSE (por nombre del proveedor)
+Función `netlify/functions/repse.mjs`: no requiere variables de entorno. En la ficha de cada proveedor, el botón "Verificar en padrón" consulta por el nombre tal como viene en la hoja (la forma societaria se ignora si la coincidencia es única). No usa ni muestra RFC.
